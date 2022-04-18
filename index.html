@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="music/music.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        let x = document.getElementById("myAudio");
+
+        function playAudio() {
+            x.play();
+        }
+
+        function pauseAudio() {
+            x.pause();
+        } 
+        
+    </script>
+    <img src="./animation/animation.gif" id="anima" onclick="openAnima()" alt="">
+    <br><button onclick="playAudio()" type="button" id = "knopka ">Play Audio</button>
+    <button onclick="pauseAudio()" type="button" id = "knopkaa ">Pause Audio</button>
+<script>
+    let knopka =getElementById("knopka");
+    let knopkaa = getElementById("knopkaa");
+
+</script>
+</body>
+</html>
